@@ -1,3 +1,3 @@
-![FlipFlop](assets/flipflop.png)
+![FlipFlop](src/assets/flipflop.png)
 
 ## A minimal and unnecessarily intense web game
