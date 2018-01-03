@@ -1,0 +1,41 @@
+.GameContainer{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+}
+@font-face{
+  font-family: 'Funk';
+  src:url("../../assets/fonts/funk.ttf")
+}
+h1{
+  font-family: 'Funk';
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+}
+.box{
+  width:3rem;
+  height: 3rem;
+  background: #444;
+  display: inline-block;
+}
+.underline{
+  text-decoration: underline;
+}
+.scrambled{
+  color:#fff;
+  background: #000;
+  transform: rotate(90deg) !important;
+}
+mark{
+  transform: rotate(90deg) !important;
+
+}
+canvas{
+  position: relative !important;
+  justify-self: center;
+  margin-left:-150px;
+}

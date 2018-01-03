@@ -1,2 +1,23 @@
-
+@font-face{
+  font-family: "Graphik";
+  src:"./assets/fonts/Graphik-Light.otf";
+}
+h1{
+  font-weight: 500;
+}
+.App{
+  display: flex;
+  background-color: #fff;
+  font-family: 'Graphik';
+  font-weight: 100;
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* align horizontal */
+}
+.logo{
+  object-fit: contain;
+  transform: scale(0.3);
+  position: absolute;
+} 
 
